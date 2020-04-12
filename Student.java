@@ -1,5 +1,15 @@
 import java.util.List;
+class Faculty{
+List<Student> students;
+String fakultet;
 
+public void addStudent(Student student){
+students.add(student);
+}
+public void deleteStudent(Student student){
+students.remove(student);
+}
+}
 class Student {
 String index;
 String firstName;
